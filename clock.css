@@ -1,0 +1,56 @@
+body{
+    background-color: navajowhite;
+}
+
+#clock {
+    font-size: 175px;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    background-color: white;
+    border-radius: 0px;
+
+}
+#clock:hover{
+    background-image: linear-gradient(90deg, #1e0041 0%, #f3007a 100%);
+    border: 2px solid black;
+    color: white;
+    outline-style: outset;
+    outline-color: rgb(224, 17, 17);
+    outline-width: thin;
+    animation-name: radial;
+    animation-duration: 2s;
+    border-radius: 100px;
+    width: 950px;
+    margin-top: 150px;
+}
+body:hover{
+    background-color: rgb(9, 11, 82);
+    animation-name: opaque;
+    animation-duration: 5s;
+}
+.text{
+    position: relative;
+    top: -50px;
+    left: 300px;
+    font: 150px arial sans-serif;
+    color: navajowhite;
+}
+
+
+
+
+@keyframes radial{
+    from{border-radius: 0px;
+    width: 900px;
+margin-top: 200px;}
+    to{border-radius: 100px;
+    width: 950px;
+margin-top: 150px;}
+}
+@keyframes opaque{
+    from{background-color: navajowhite}
+    to{
+        background-color: rgb(9, 11, 82);
+    }
+}
