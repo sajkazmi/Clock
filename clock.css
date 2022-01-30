@@ -9,8 +9,8 @@ body{
     text-align: center;
     background-color: white;
     border-radius: 0px;
-
 }
+
 #clock:hover{
     background-image: linear-gradient(90deg, #1e0041 0%, #f3007a 100%);
     border: 2px solid black;
