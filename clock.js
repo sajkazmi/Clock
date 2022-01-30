@@ -25,4 +25,5 @@ function showTime() {
 	document.getElementById("clock")
 			.innerHTML = currentTime;
 }
+
 showTime();
